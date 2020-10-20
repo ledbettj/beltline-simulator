@@ -10,7 +10,7 @@
   <body>
     <canvas id="canvas" width="1024" height="768" tabindex="1"></canvas>
     <script>
-class Beltline {
+     class Beltline {
     constructor(node) {
         this.canvas = node;
         this.ctx = node.getContext('2d');
@@ -194,7 +194,7 @@ class Beltline {
         }
         this.textAt(ctx, this.player.x, this.player.y, '\u{01f3c3}');
     }
-     }
+     };
 
      window.b = new Beltline(document.getElementById("canvas"));
      window.b.run();
